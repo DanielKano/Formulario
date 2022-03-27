@@ -1,0 +1,172 @@
+:root{
+    --color-primario:#000001;
+    --color-secundario:#002d4e;
+    --color-terciario:#0067a5;
+    --color-letras:#fffbf4;
+}
+*{
+    background: var(--color-primario);
+    padding:auto;
+    height: auto;
+    color: var(--color-letras);
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    padding: 2rem;
+    margin: 25px 100px ;
+    background: none;
+    color: var(--letras);
+    border: var(--color-secundario) solid;
+    border-radius: 25px;
+}
+#title{
+    padding: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+#description{
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#survey-form{
+    display: block;
+    padding: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid var(--color-secundario);
+    border-radius: 25px;
+}
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+#name-label{
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#name{
+    font-size: 1.3rem;
+    display: block  ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: none;
+    border-bottom:solid 1px var(--color-terciario) ;
+}
+#name:hover{
+    font-size: 1.3rem;
+    display: block  ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: none;
+    border-bottom:solid 1px green ;
+}
+#email-label{
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#email{
+    font-size: 1.3rem;
+    display: block  ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: none;
+    border-bottom:solid 1px var(--color-terciario) ;
+}
+#email:hover{
+    font-size: 1.3rem;
+    display: block  ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: none;
+    border-bottom:solid 1px green ;
+}
+#number-label{
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#number{
+    font-size: 1.3rem;
+    display: block  ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: none;
+    border-bottom:solid 1px var(--color-terciario) ;
+}
+#number:hover{
+    font-size: 1.3rem;
+    display: block  ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: none;
+    border-bottom:solid 1px green ;
+}
+div,p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#dropdown{
+    font-size: 1.3rem;
+    border: none;
+    border-bottom:solid 1px var(--color-terciario);
+}
+#dropdown:focus,#dropdown:hover{
+    color: rgba(255, 255, 255, 0.378);
+    font-size: 1.3rem;
+    border: none;
+    border-bottom:solid 1px green;
+}
+label{
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+}
+textarea{
+    font-size: 1.3rem;
+    display: block  ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: none;
+    border-bottom:solid 1px var(--color-terciario) ;
+}
+textarea:hover{
+    font-size: 1.3rem;
+    display: block  ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: none;
+    border-bottom:solid 1px green;
+}
+button{
+    color: var(--color-primario);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+    border: solid var(--color-secundario);
+    border-radius: 15px;
+    background-color: var(--color-terciario);
+}
+button:focus,button:hover{
+    color: var(--color-letras);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+    border: solid rgb(30, 104, 30);
+    border-radius: 15px;
+    background-color: green;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="title">Date a conocer</h1>
+        <p id="description">¿Quieres que los demas te conozcan?pues por medio de este formulario lo podran hacer</p>
+    </header>
+    <form id="survey-form">
+        <div class="form-group">
+            <label for="name" id="name-label">
+                Nombre
+            </label>
+            <input 
+                type="text" 
+                id="name" 
+                class="form-control" 
+                name="Nombre" 
+                placeholder="Ingresa tu nombre" 
+                required>
+        </div>
+        <div class="form-group">
+            <label for="email" id="email-label">
+                Correo de Contacto
+            </label>
+            <input 
+                type="email" 
+                id="email" 
+                class="form-control" 
+                name="Correo"
+                placeholder="Ingresa tu correo electrónico" 
+                required>
+        </div>
+        <div class="form-group">
+            <label for="number" id="number-label">
+                Edad
+            </label>
+            <input 
+                type="number" 
+                name="Edad" 
+                id="number" 
+                class="form-control" 
+                placeholder="Ingresa tu edad" 
+                min="1"
+                max="99">
+        </div>
+        <div class="form-group">
+            <p>¿Que tipo de musica te gusta?</p>
+            <select name="Musica" id="dropdown" class="form-control" required>
+                <option disabled selected value="Selecciona">Selecciona</option>
+                <option value="Rock">Rock</option>
+                <option value="Reggaeton">Reggaeton</option>
+                <option value="Bachata">Bachata</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Cual de estos alimentos prefieres</p>
+            <label>
+                <input 
+                    name="user-recommend" 
+                    type="radio" 
+                    value="Pizza" 
+                    class="imput-radio"
+                    checked>
+                Pizza
+            </label>
+            <label>
+                <input 
+                    name="user-recommend" 
+                    type="radio" 
+                    value="Taco" 
+                    class="imput-radio">
+                Taco
+            </label>
+            <label>
+                <input 
+                    name="user-recommend" 
+                    type="radio" 
+                    value="Hamburguesa" 
+                    class="imput-radio">
+                Hamburguesa
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Escoje las cosas que te gusten hacer</p>
+            <label>
+                <input 
+                    name="teGusta" 
+                    value="videojuegos"   
+                    type="checkbox" 
+                    class="input-checkbox">
+                Videojuegos
+            </label>
+            <label>
+                <input 
+                    name="teGusta" 
+                    value="cantar" 
+                    type="checkbox" 
+                    class="input-checkbox">
+                Cantar
+            </label>
+            <label>
+                <input 
+                    name="teGusta"     
+                    value="bailar" 
+                    type="checkbox" 
+                    class="input-checkbox">
+                Bailar
+            </label>
+            <label>
+                <input 
+                    name="teGusta" 
+                    value="hablar"    
+                    type="checkbox" 
+                    class="input-checkbox">
+                Hablar 
+            </label>
+            <label>
+                <input 
+                    name="teGusta" 
+                    value="entrenamiento" 
+                    type="checkbox" 
+                    class="input-checkbox">
+                Entrenamiento
+            </label>
+            <label>
+                <input 
+                    name="teGusta" 
+                    value="anime" 
+                    type="checkbox" 
+                    class="input-checkbox">
+                Anime
+            </label>
+            <label>
+                <input 
+                    name="teGusta" 
+                    value="tomar-algo" 
+                    type="checkbox" 
+                    class="input-checkbox">
+                Tomar Algo
+            </label>
+            <label>
+                <input 
+                    name="teGusta" 
+                    value="caminar" 
+                    type="checkbox" 
+                    class="input-checkbox">
+                Caminar
+            </label>
+        </div>
+       <div>
+           <p>¿Que te identifica?</p>
+            <textarea 
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Pon una palabra o frase con la que te sientas identificado"
+            ></textarea>
+       </div>
+        <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+                Publicar
+            </button>
+        </div>
+    </form>
+</body>
+
+</html>
